@@ -1,0 +1,155 @@
+/*- - - - - - CSS RESET - - - - - - - - - - -*/
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*- - - - - - UNIVERSAL STYLES - - - - - - - - - - -*/
+/* padding sections, utility cases, etc */
+header,
+footer,
+.banner,
+.small-banner {
+  padding: 10%;
+}
+
+.padded {
+  padding: 3%;
+}
+
+h1, h2, h3, h4 {
+  padding-bottom: 1%;
+}
+
+.quote {
+  padding: 5%;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+
+/*- - - - - - - - - - TYPOGRAPHY - - - - - - - - - - - - - - -*/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.4;
+}
+
+h1 {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+span, .dark h3 {
+  color: #ffbe00;
+}
+
+.banner h2 {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.padded h2 {
+  color: rgb(60, 60, 65);
+  font-size: 1.5rem;
+}
+
+.padded p {
+  text-align: justify;
+  font-size: .9rem;
+}
+
+.small-banner {
+  text-align: center;
+}
+.small-banner h3 {
+  font-size: 1.5rem;
+}
+
+.small-banner h4 {
+  font-size: 3rem;
+}
+
+.light {
+  color: white;
+}
+
+.col-8 {
+  font-size: 1.5rem;
+}
+
+.author {
+  text-align: right;
+  color: #a4a4a4;
+  font-size: .9rem;
+  padding-right: 5%;
+}
+
+
+/*- - - - - - BANNERS/BACKGROUND IMAGES - - - - - - - - - - -*/
+.banner {
+  background-image: url(header.jpg);
+  background-size: cover;
+}
+
+[class*='bg']{
+    background-size: cover;
+    background-position: center;
+    min-height: 26vw;
+}
+
+.bg-pug {
+  background-image: url(bg-pug.jpg);
+  background-position: 20% 35.5%;
+}
+
+.bg-mattress {
+  background-image: url(bg-mattress.jpg);
+}
+
+.small-banner {
+  background-image: url(small-banner.jpg);
+  background-size: cover;
+  background-position: 0% 25%;
+}
+
+footer {
+  background-color: rgb(60, 60, 65);
+}
+
+
+/*- - - - - - - - - - QUOTE SECTION - - - - - - - - - - -*/
+.quote-mark {
+  font-size: 4rem;
+  color: grey;
+}
+
+/*- - - - - - - - - - FOOTER - - - - - - - - - - -*/
+.dark h2, .dark p {
+  color: white;
+  text-align: left;
+}
+
+.dark h2, .dark h3 {
+  font-size: 2.2rem;
+  line-height: 1;
+}
+
+.dark p {
+  padding-top: 3%;
+  font-size: .9rem;
+}
+
+
+/*- - - - - - FORM - - - - - - - - - - -*/
