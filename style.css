@@ -19,7 +19,7 @@ footer,
 }
 
 .quote {
-  padding: 5%;
+  padding: 5% 2%;
 }
 
 .right {
@@ -61,9 +61,10 @@ span, .dark h3 {
   font-size: 1.5rem;
 }
 
-.padded p {
-  text-align: justify;
+.padded p, .dark p {
+  padding-top: 3%;
   font-size: .9rem;
+  text-align: left;
 }
 
 .small-banner {
@@ -142,9 +143,53 @@ footer {
   line-height: 1;
 }
 
-.dark p {
-  padding-top: 3%;
+/*- - - - - - FORM - - - - - - - - - - -*/
+footer {
+  padding: 5%;
+}
+label {
+  color: white;
   font-size: .9rem;
+  text-align: left;
 }
 
-/*- - - - - - FORM - - - - - - - - - - -*/
+input, textarea {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgb(60, 60, 65);
+  width: 100%;
+  font-size: .8rem;
+  color: grey;
+}
+
+input {
+  min-height: 5vh;
+  padding: 2%;
+}
+
+textarea {
+  min-height: 25vh;
+  padding: 2%;
+}
+
+select {
+    width: 100%;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+.button {
+  margin-top: 1.5%;
+  background-color: #ffbe00;
+  color:white;
+  text-transform:uppercase;
+  font-size: 1.5vw;
+  transition: .2s;
+}
+
+.button:hover {
+  background-color: white;
+  color: #ffbe00;
+}
