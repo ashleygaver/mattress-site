@@ -15,11 +15,7 @@ footer,
 }
 
 .padded {
-  padding: 3%;
-}
-
-h1, h2, h3, h4 {
-  padding-bottom: 1%;
+  padding: 4%;
 }
 
 .quote {
@@ -44,7 +40,7 @@ body {
 
 h1 {
   color: white;
-  font-size: 3rem;
+  font-size: 6.2vw;
   text-align: center;
   font-weight: 700;
 }
@@ -55,7 +51,7 @@ span, .dark h3 {
 
 .banner h2 {
   color: white;
-  font-size: 1.5rem;
+  font-size: 2.8vw;
   text-align: center;
   font-weight: 400;
 }
@@ -74,11 +70,12 @@ span, .dark h3 {
   text-align: center;
 }
 .small-banner h3 {
-  font-size: 1.5rem;
+  font-weight: 400;
+  font-size: 2.8vw;
 }
 
 .small-banner h4 {
-  font-size: 3rem;
+  font-size: 6vw;
 }
 
 .light {
@@ -88,14 +85,6 @@ span, .dark h3 {
 .col-8 {
   font-size: 1.5rem;
 }
-
-.author {
-  text-align: right;
-  color: #a4a4a4;
-  font-size: .9rem;
-  padding-right: 5%;
-}
-
 
 /*- - - - - - BANNERS/BACKGROUND IMAGES - - - - - - - - - - -*/
 .banner {
@@ -121,7 +110,7 @@ span, .dark h3 {
 .small-banner {
   background-image: url(small-banner.jpg);
   background-size: cover;
-  background-position: 0% 25%;
+  background-position: 50% 52%;
 }
 
 footer {
@@ -133,6 +122,13 @@ footer {
 .quote-mark {
   font-size: 4rem;
   color: grey;
+}
+
+.author {
+  text-align: right;
+  color: #a4a4a4;
+  font-size: .9rem;
+  padding-right: 10%;
 }
 
 /*- - - - - - - - - - FOOTER - - - - - - - - - - -*/
@@ -150,6 +146,5 @@ footer {
   padding-top: 3%;
   font-size: .9rem;
 }
-
 
 /*- - - - - - FORM - - - - - - - - - - -*/
