@@ -116,6 +116,7 @@ footer {
 
 /*- - - - - - - - - - QUOTE SECTION - - - - - - - - - - -*/
 .quote-mark {
+  font-family: 'IM Fell French Canon', serif;
   font-size: 4rem;
   color: grey;
 }
@@ -161,6 +162,7 @@ input, textarea {
 input {
   min-height: 5vh;
   padding: 2%;
+  appearance: none;
 }
 
 textarea {
@@ -198,5 +200,14 @@ textarea {
   .padded p, .dark p {
     font-size: .8rem;
   }
+
+  form {
+    margin:auto;
+  }
+
+  .button{
+
+  }
+
 
 }
